@@ -1,0 +1,26 @@
+[
+    {
+        "img": "require(../images/lizTruss.png)",
+        "headline": "Liz Truss will be UK’s next Prime Minister?"
+    },
+    {
+        "img": "require(../images/uk.png)",
+        "headline": "British Pound will fall after Prime Minister elections?"
+    },
+    {
+        "img": "railway.png",
+        "headline": "British Railway Strikes will end by before Sept. 2022?"
+    },
+    {
+        "img": "lizTruss.png",
+        "headline": "Liz Truss will be UK’s next Prime Minister?"
+    },
+    {
+        "img": "uk.png",
+        "headline": "British Pound will fall after Prime Minister elections?"
+    },
+    {
+        "img": "railway.png",
+        "headline": "British Railway Strikes will end by before Sept. 2022?"
+    }
+]
