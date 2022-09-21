@@ -42,7 +42,7 @@ export default function HomeScreen({ navigation }) {
                         translucent={false}
                         networkActivityIndicatorVisible={true}
                     />
-                    <ImageBackground source={require("./images/Vector.png")}
+                    <ImageBackground source={require("../../images/Vector.png")}
                         resizeMode={"cover"}
                         style={{ width: width, zIndex: -1, }}
                     >
@@ -54,7 +54,7 @@ export default function HomeScreen({ navigation }) {
                             />
                         </TouchableOpacity>
                         <Image
-                            source={require("./images/gradient.png")}
+                            source={require("../../images/gradient.png")}
                             style={{ width: width, zIndex: 0 }}
                         />
                         <View style={styles.imgBottom}>
@@ -72,7 +72,7 @@ export default function HomeScreen({ navigation }) {
                 </View>
                 <View>
                     <Image
-                        source={require("./images/portfolio.png")}
+                        source={require("../../images/portfolio.png")}
                         style={styles.portfolioImg}
                     />
                 </View>
