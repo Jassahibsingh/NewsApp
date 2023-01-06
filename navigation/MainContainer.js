@@ -10,10 +10,10 @@ import MarketScreen from './screens/MarketScreen';
 import ProfileScreen from './screens/ProfileScreen';
 
 //Screen names
-const feed = "Feed";
-const portfolio = "PortFolio";
-const market = "Market";
-const profile = "Profile"
+const feed = 'Feed';
+const portfolio = 'PortFolio';
+const market = 'Market';
+const profile = 'Profile';
 
 const Tab = createBottomTabNavigator();
 
@@ -29,13 +29,10 @@ function MainContainer() {
 
                         if (rn === feed) {
                             iconName = focused ? 'home' : 'home-outline';
-
                         } else if (rn === portfolio) {
                             iconName = focused ? 'list' : 'list-outline';
-
                         } else if (rn === market) {
                             iconName = focused ? 'settings' : 'settings-outline';
-
                         } else if (rn === profile) {
                             iconName = focused ? 'settings' : 'settings-outline';
                         }
@@ -48,18 +45,15 @@ function MainContainer() {
                     activeTintColor: '#e432c1',
                     inactiveTintColor: 'grey',
                     labelStyle: { paddingBottom: 10, fontSize: 10 },
-                    style: { padding: 10, height: 70 }
+                    style: { padding: 10, height: 70 },
                 }}>
-
                 <Tab.Screen name={feed} component={FeedScreen} />
                 <Tab.Screen name={market} component={MarketScreen} />
                 <Tab.Screen name={portfolio} component={PortfolioScreen} />
                 <Tab.Screen name={profile} component={ProfileScreen} />
-
             </Tab.Navigator>
         </NavigationContainer>
     );
 }
 
 export default MainContainer;
-Footer
